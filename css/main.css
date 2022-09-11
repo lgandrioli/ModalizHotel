@@ -1,0 +1,8 @@
+@import url("../css/header.css");
+@import url("../css/home.css");
+@import url("../css/quartos.css");
+
+:root{
+    --fonte-principal:"Poppins";
+    --gradiente: linear-gradient( to right, #d1d1d1,#a8a7a7)
+}

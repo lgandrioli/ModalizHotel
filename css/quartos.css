@@ -1,0 +1,84 @@
+.transparent {
+    background-image: url(/img/paris-back.jpg);
+    position: relative;
+    isolation: isolate;
+    background-attachment: fixed;
+
+}
+
+.transparent::after {
+    content: '';
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background-color: rgba(71, 70, 70, 0.7);
+
+}
+
+
+.principal__quartos {
+    display: flex;
+    flex-direction: column;
+    background-size: 100vw;
+    background-attachment: fixed;
+    opacity: 1;
+
+}
+
+
+
+.nome_quarto {
+    font-family: var(--fonte-principal);
+    align-self: center;
+    font-size: 100px;
+    padding: 10rem;
+    margin: 2rem;
+    border-radius: 15px;
+}
+
+.master {
+    background: url(/img/quarto\ master.jpg)no-repeat;
+    background-size: cover;
+    opacity: 1;
+}
+
+.master:hover {
+    background: url(/img/quarto\ master.jpg)no-repeat;
+    background-size: cover;
+    padding: 15vw;
+    transition: 0.7s;
+}
+
+.presidencial {
+    background: url(/img/quarto\ presidencial.jpg) 100% no-repeat;
+    background-size: cover;
+
+}
+
+.presidencial:hover {
+    background: url(/img/quarto\ presidencial.jpg) 100% no-repeat;
+    background-size: cover;
+    padding: 15vw;
+    transition: 0.7s;
+}
+
+.dupla {
+    background: url(/img/quarto\ duplo.jpg) 100% no-repeat;
+    background-size: cover;
+}
+
+.dupla:hover {
+    background: url(/img/quarto\ duplo.jpg) 100% no-repeat;
+    background-size: cover;
+    padding: 15vw;
+    transition: 0.7s;
+}
+
+
+.nome {
+    background-color: rgba(80, 79, 79, 0.6);
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    position: relative;
+    bottom: -8rem;
+}
