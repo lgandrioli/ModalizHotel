@@ -5,7 +5,7 @@
   
 }
 
-.cabecalho {
+.header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -13,11 +13,11 @@
   background-image: var(--gradiente);
 }
 
-.cabecalho__lista {
+.header__list {
   display: flex;
 }
 
-.lista__link{
+.list__link{
   display: flex;
   padding: 2rem;
   color: rgb(7, 6, 6);
@@ -27,7 +27,7 @@
 }
 
 
-.lista__link:hover, .ativo{
+.list__link:hover, .active{
   background-color: rgb(160, 159, 159);
   transition: 0.3s;
   color: white;

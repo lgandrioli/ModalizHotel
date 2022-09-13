@@ -16,7 +16,7 @@
 }
 
 
-.principal__quartos {
+.main__rooms {
     display: flex;
     flex-direction: column;
     background-size: 100vw;
@@ -27,7 +27,7 @@
 
 
 
-.nome_quarto {
+.room__name {
     font-family: var(--fonte-principal);
     align-self: center;
     font-size: 100px;
@@ -49,13 +49,13 @@
     transition: 0.7s;
 }
 
-.presidencial {
+.presidential {
     background: url(/img/quarto\ presidencial.jpg) 100% no-repeat;
     background-size: cover;
 
 }
 
-.presidencial:hover {
+.presidential:hover {
     background: url(/img/quarto\ presidencial.jpg) 100% no-repeat;
     background-size: cover;
     padding: 15vw;
@@ -75,7 +75,7 @@
 }
 
 
-.nome {
+.name {
     background-color: rgba(80, 79, 79, 0.6);
     border-radius: 10px;
     color: rgb(0, 0, 0);

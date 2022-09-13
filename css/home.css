@@ -1,4 +1,4 @@
-.principal {
+.main {
   display: flex;
   justify-content: center;
   background: url(../img/hall-hotel.jpg) no-repeat;
@@ -10,7 +10,7 @@
   isolation: isolate;
 }
 
-.principal::after{
+.main::after{
   content: '';
   position: absolute;
   z-index: -1;
@@ -19,7 +19,7 @@
 
 }
 
-.principal__lista {
+.main__list {
   margin-top: 5%;
   height: 18rem;
   background-image: var(--gradiente);
@@ -31,14 +31,14 @@
   text-align: center;
 }
 
-.principal__item-titulo {
+.main__item-titulo {
   margin-top: 1.5rem;
   font-size: 4rem ;
   display: flex;
   justify-content: center;
 }
 
-.principal__item-lista{
+.main__item-list{
     font-size: 2rem;
     margin: 2rem;
     display: flex;
