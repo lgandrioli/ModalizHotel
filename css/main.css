@@ -1,8 +1,30 @@
 @import url("../css/header.css");
 @import url("../css/home.css");
 @import url("../css/quartos.css");
-
+@import url("../css/carousel.css");
+@import url("../css/services.css");
 :root{
     --fonte-principal:"Poppins";
-    --gradiente: linear-gradient( to right, #d1d1d1,#a8a7a7)
+    --gradiente: linear-gradient( to right, #d1d1d1, #a8a7a7)
 }
+
+.content{
+    background: url(../img/hall-hotel.jpg) no-repeat;
+    background-size: 100vw;
+    background-attachment: fixed;
+    position: relative;
+    isolation: isolate;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.content::after{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background-color: rgba(71, 70, 70, 0.7);
+  
+  }
+  

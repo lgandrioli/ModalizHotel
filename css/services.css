@@ -1,0 +1,80 @@
+.aaa {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px 150px 0 150px;
+    background-color: rgb(187, 187, 187);
+}
+
+
+
+.services__principal {
+    height: 10vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    color: rgb(17, 16, 16);
+    background-color: rgb(85, 83, 83);
+    color: rgb(218, 216, 216);
+    text-align: center;
+}
+
+
+
+.services {
+    display: flex;
+    background: rgb(102, 98, 98);
+    height: 33.3vw;
+    align-items: flex-start;
+    flex-direction: column;
+    color: rgb(224, 224, 224);
+    padding-top: 100px;
+    margin-top: 5px;
+    width: 100%;
+
+}
+
+.services__title {
+    font-weight: 500;
+    font-size: 50px;
+    margin-bottom: 1rem;
+    padding-left: 3rem;
+    margin-top: 1rem;
+    text-decoration: underline 2px;
+    text-transform: uppercase;
+    font-family: var(--fonte-principal), sans-serif
+}
+
+.services__describe {
+    font-weight: 400;
+    font-size: 40px;
+    padding:0 3rem 0 3rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-family: var(--fonte-principal), sans-serif
+}
+
+.services__background {
+    background: rgba(65, 64, 64, 0.8);
+    min-width: 30%;
+    max-width: 70%;
+}
+
+.gym {
+    background: url(/img/academia.webp), no-repeat;
+    background-size: 100% 60rem;
+}
+
+.lazer {
+    background: url(/img/lazerarea.jpg), no-repeat;
+    background-size: 100% 60rem;
+    align-items: flex-end;
+}
+
+.kids{
+    background: url(/img/spacekids.jpg), no-repeat;
+    background-size: 100% 60rem;
+    align-items: flex-start;
+    
+}

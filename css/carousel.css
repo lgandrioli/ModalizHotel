@@ -1,0 +1,38 @@
+ .carrossel{
+    max-width: 50%;
+} 
+.carrossel__titulo {
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 1rem 1rem 0 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: var(--fonte-principal);
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 1em 0 0.5em 0;
+}
+
+.swiper-slide img {
+    max-width: 100%;
+    border-radius:0 0 10px 10px ;
+}
+
+
+.swiper-button-prev,
+.swiper-button-next {
+    display: none;
+}
+
+.swiper-pagination {
+    position: initial;
+    margin: 0.5em 0;
+}
+
+
+.image_carousel{
+    height: 30rem;
+    width:100%;
+    align-items: center;
+
+}
